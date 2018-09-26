@@ -15,7 +15,6 @@ const MoviesPage = ({ match, movies }) => (
     <Route
       path={`${match.url}/:movieId`}
       render={routerProps => <MovieShow movies={movies} {...routerProps} />}
-    />{" "}
     />
   </div>
 );
